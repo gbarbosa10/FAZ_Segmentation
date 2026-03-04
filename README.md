@@ -28,13 +28,16 @@ The meric argument allows you to select between MSE, SSIM, FID and PNSR (between
 
 The data_aug argument can be selected between normal, gaussian_blur, h_flip, v_flip, h_and_v_flip and h_flip_blur. Each represents a data augmentation techninque that will be applied to the images on the fly. 
 
+The following image shows an example of these image inpainting techniques.
+
+<img width="292" height="97" alt="image" src="https://github.com/user-attachments/assets/1d9d6af1-e6a4-45ae-ad02-13002c3358cd" />
 
 
 The model argument can be selected between FCN, U2NET, UNet_3Plus, AttentionUNet, UnetResnet34 and UNet. All these architectures can be incorporated into the trainning script. 
 
 The disease_class can be selected between rvo_treated, others, normal and all. Each represents a different disease to use in training, while the all class joins every disease for training and testing. 
 
-The segmentation_main_matching.py has the code responsible for image segmentation training. The models ar finetuned to model one the ophtalmologist's segmentation. 
+The segmentation_main_matching.py has the code responsible for image segmentation training. The models are finetuned to one of the ophtalmologist's segmentation. 
 
 The segmentation_main_matching.py file has the following arguments:
     --pat
