@@ -34,9 +34,7 @@ The disease_class can be selected between rvo_treated, others, normal and all. E
 
 The following image shows an example of these image inpainting techniques. In the left there is the image prediction, in the middle there is an occluded image, while in the right there is the original image.
 
-<p In the left there is the image prediction, in the middle there is an occluded image, while in the right there is the original image.
-<img width="292" height="97" alt="image" src="https://github.com/user-attachments/assets/1d9d6af1-e6a4-45ae-ad02-13002c3358cd" style="float:right;">
-/p>
+<img width="292" height="97" alt="image" src="https://github.com/user-attachments/assets/1d9d6af1-e6a4-45ae-ad02-13002c3358cd" style="float:right;"/>
 
 The segmentation_main_matching.py has the code responsible for image segmentation training. The models are finetuned to one of the ophtalmologist's segmentation. 
 
