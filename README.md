@@ -52,6 +52,30 @@ The segmentation_main_matching.py file has the following arguments:
     --weight_init
     --oftal_2
 
+The pat argument signals after how many epochs should the model training stop. 
 
+The max_epoch signals the maximum number of epochs permitted for each run.
 
+The total_fold_num signals the number of different folds used in cross validation. 
 
+The batch_size_list argument signals how many batch sizes can be incorporated into the model training. 
+
+The learning_rate_list argument signals how many learning rates can be incorporated into the model training.
+
+The data_aug argument can be selected between normal, gaussian_blur, h_flip, v_flip, h_and_v_flip and h_flip_blur. Each represents a data augmentation techninque that will be applied to the images on the fly. 
+
+The model argument can be selected between FCN, U2NET, UNet_3Plus, AttentionUNet, UnetResnet34 and UNet. All these architectures can be incorporated into the trainning script. 
+
+The disease_class can be selected between rvo_treated, others, normal and all. Each represents a different disease to use in training, while the all class joins every disease for training and testing.
+
+The weight_init can be normal or im_paint. If the normal part is selected the model weights will be initialized with a truncated normal distribuition, if the im_paint option is selected the model will be initialized based on the weights from the image impainting model. 
+
+The oftal_2 option can be True or False, if True the annotations from the second oftalmologist will also be used in the image testing. Otherwise, the annotations from the second oftalmologist will not be used. 
+
+The following image shows an example of the image segmentation results. In the left there is the image annotation, in the middle there is the segmentation prediction, while in the right there is the image prediction countour.
+
+<p align="center">
+<img width="295" height="98" alt="image" src="https://github.com/user-attachments/assets/31a4d4be-ba2b-4896-8576-41fbfa43b8e7" />
+</p>
+
+The following image shows an example of these image inpainting techniques. In the left there is the image prediction, in the middle there is an occluded image, while in the right there is the original image.
