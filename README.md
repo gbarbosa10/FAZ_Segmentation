@@ -114,3 +114,5 @@ This code is used in the article [XXXX], with a A6000 NVIDIA GPU, 7 CPU cores, 3
     scikit-learn ---------------------------------- 1.7.2
     
     seaborn --------------------------------------- 0.13.2
+
+The dataset from this project is only available unpon request to the corresponding author: gbarbosa@inegi.up.pt. 
