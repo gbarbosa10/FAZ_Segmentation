@@ -77,5 +77,3 @@ The following image shows an example of the image segmentation results. In the l
 <p align="center">
 <img width="295" height="98" alt="image" src="https://github.com/user-attachments/assets/31a4d4be-ba2b-4896-8576-41fbfa43b8e7" />
 </p>
-
-The following image shows an example of these image inpainting techniques. In the left there is the image prediction, in the middle there is an occluded image, while in the right there is the original image.
