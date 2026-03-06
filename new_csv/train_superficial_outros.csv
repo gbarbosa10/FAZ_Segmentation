@@ -1,0 +1,33 @@
+﻿Column1;filename;label;patient;label_2
+0;Outros/21012633 od dmi/octa_superficial.png;Outros/21012633 od dmi/octa_superficial_mask_Sonia.png;21012633;Outros/21012633 od dmi/octa_superficial_mask_Sofia.png
+1;Outros/24010546 oe oclusoes arteriais/octa_superficial.png;Outros/24010546 oe oclusoes arteriais/octa_superficial_mask_Sonia.png;24010546;Outros/24010546 oe oclusoes arteriais/octa_superficial_mask_Sofia.png
+2;Outros/8035022 od dmi/octa_superficial.png;Outros/8035022 od dmi/octa_superficial_mask_Sonia.png;8035022;Outros/8035022 od dmi/octa_superficial_mask_Sofia.png
+3;Outros/11094800 oe dmi/octa_superficial.png;Outros/11094800 oe dmi/octa_superficial_mask_Sonia.png;11094800;Outros/11094800 oe dmi/octa_superficial_mask_Sofia.png
+4;Outros/7023044 od rdminima/octa_superficial.png;Outros/7023044 od rdminima/octa_superficial_mask_Sonia.png;7023044;Outros/7023044 od rdminima/octa_superficial_mask_Sofia.png
+5;Outros/24036307 OD/octa_superficial.png;Outros/24036307 OD/octa_superficial_mask_Sonia.png;24036307;Outros/24036307 OD/octa_superficial_mask_Sofia.png
+6;Outros/20026806 oe isquemia rd tipo1/octa_superficial.png;Outros/20026806 oe isquemia rd tipo1/octa_superficial_mask_Sonia.png;20026806;Outros/20026806 oe isquemia rd tipo1/octa_superficial_mask_Sofia.png
+7;Outros/20026806 od isquemia rd tipo1/octa_superficial.png;Outros/20026806 od isquemia rd tipo1/octa_superficial_mask_Sonia.png;20026806;Outros/20026806 od isquemia rd tipo1/octa_superficial_mask_Sofia.png
+8;Outros/170012009 oe oclusao arterial ramo/octa_superficial.png;Outros/170012009 oe oclusao arterial ramo/octa_superficial_mask_Sonia.png;170012009;Outros/170012009 oe oclusao arterial ramo/octa_superficial_mask_Sofia.png
+9;Outros/24073840 oe depositos yipo drusas/octa_superficial.png;Outros/24073840 oe depositos yipo drusas/octa_superficial_mask_Sonia.png;24073840;Outros/24073840 oe depositos yipo drusas/octa_superficial_mask_Sofia.png
+10;Outros/120015988 OD NVC/octa_superficial.png;Outros/120015988 OD NVC/octa_superficial_mask_Sonia.png;120015988;Outros/120015988 OD NVC/octa_superficial_mask_Sofia.png
+11;Outros/9036878 oe irregular camadas externas/octa_superficial.png;Outros/9036878 oe irregular camadas externas/octa_superficial_mask_Sonia.png;9036878;Outros/9036878 oe irregular camadas externas/octa_superficial_mask_Sofia.png
+12;Outros/20024122 oe nvc/octa_superficial.png;Outros/20024122 oe nvc/octa_superficial_mask_Sonia.png;20024122;Outros/20024122 oe nvc/octa_superficial_mask_Sofia.png
+13;Outros/7023044 oe rdminima/octa_superficial.png;Outros/7023044 oe rdminima/octa_superficial_mask_Sonia.png;7023044;Outros/7023044 oe rdminima/octa_superficial_mask_Sofia.png
+14;Outros/2051515 oe dmi/octa_superficial.png;Outros/2051515 oe dmi/octa_superficial_mask_Sonia.png;2051515;Outros/2051515 oe dmi/octa_superficial_mask_Sofia.png
+15;Outros/93032170 OD/octa_superficial.png;Outros/93032170 OD/octa_superficial_mask_Sonia.png;93032170;Outros/93032170 OD/octa_superficial_mask_Sofia.png
+16;Outros/98032414 od nvc csc/octa_superficial.png;Outros/98032414 od nvc csc/octa_superficial_mask_Sonia.png;98032414;Outros/98032414 od nvc csc/octa_superficial_mask_Sofia.png
+17;Outros/98032414 oe nvc/octa_superficial.png;Outros/98032414 oe nvc/octa_superficial_mask_Sonia.png;98032414;Outros/98032414 oe nvc/octa_superficial_mask_Sofia.png
+18;Outros/7021680 od serosa/octa_superficial.png;Outros/7021680 od serosa/octa_superficial_mask_Sonia.png;7021680;Outros/7021680 od serosa/octa_superficial_mask_Sofia.png
+19;Outros/94022276 od dmi exsudativa/octa_superficial.png;Outros/94022276 od dmi exsudativa/octa_superficial_mask_Sonia.png;94022276;Outros/94022276 od dmi exsudativa/octa_superficial_mask_Sofia.png
+20;Outros/2051515 od dmi/octa_superficial.png;Outros/2051515 od dmi/octa_superficial_mask_Sonia.png;2051515;Outros/2051515 od dmi/octa_superficial_mask_Sofia.png
+21;Outros/24072015 OD uveite intermedia/octa_superficial.png;Outros/24072015 OD uveite intermedia/octa_superficial_mask_Sonia.png;24072015;Outros/24072015 OD uveite intermedia/octa_superficial_mask_Sofia.png
+22;Outros/24072015 OE uveite intermedia/octa_superficial.png;Outros/24072015 OE uveite intermedia/octa_superficial_mask_Sonia.png;24072015;Outros/24072015 OE uveite intermedia/octa_superficial_mask_Sofia.png
+23;Outros/96003757 oe nvc nao exsudativa/octa_superficial.png;Outros/96003757 oe nvc nao exsudativa/octa_superficial_mask_Sonia.png;96003757;Outros/96003757 oe nvc nao exsudativa/octa_superficial_mask_Sofia.png
+24;Outros/13030354 od vasculite/octa_superficial.png;Outros/13030354 od vasculite/octa_superficial_mask_Sonia.png;13030354;Outros/13030354 od vasculite/octa_superficial_mask_Sofia.png
+25;Outros/24010546 od oclusaoes arteriais/octa_superficial.png;Outros/24010546 od oclusaoes arteriais/octa_superficial_mask_Sonia.png;24010546;Outros/24010546 od oclusaoes arteriais/octa_superficial_mask_Sofia.png
+26;Outros/15024914 od oclusoes capilares rd/octa_superficial.png;Outros/15024914 od oclusoes capilares rd/octa_superficial_mask_Sonia.png;15024914;Outros/15024914 od oclusoes capilares rd/octa_superficial_mask_Sofia.png
+27;Outros/60031864 od nvc/octa_superficial.png;Outros/60031864 od nvc/octa_superficial_mask_Sonia.png;60031864;Outros/60031864 od nvc/octa_superficial_mask_Sofia.png
+28;Outros/98042572 od atrofia focal epr/octa_superficial.png;Outros/98042572 od atrofia focal epr/octa_superficial_mask_Sonia.png;98042572;Outros/98042572 od atrofia focal epr/octa_superficial_mask_Sofia.png
+29;Outros/94026098 oe nvc/octa_superficial.png;Outros/94026098 oe nvc/octa_superficial_mask_Sonia.png;94026098;Outros/94026098 oe nvc/octa_superficial_mask_Sofia.png
+30;Outros/19028967 od nvc/octa_superficial.png;Outros/19028967 od nvc/octa_superficial_mask_Sonia.png;19028967;Outros/19028967 od nvc/octa_superficial_mask_Sofia.png
+31;Outros/96003757 od dmi/octa_superficial.png;Outros/96003757 od dmi/octa_superficial_mask_Sonia.png;96003757;Outros/96003757 od dmi/octa_superficial_mask_Sofia.png
