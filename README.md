@@ -91,19 +91,26 @@ The code follows the following structure:
 
 The two main scripts are in the main directory, while the remainder of the files with the necessary functions are in the utils folder. The dataset.py file has the dataloaders, the lightning_module.py file has the protocols used for the training and validation loops, the loss.py file has the losses used in traininig, and the model.py has the models used in the main scripts.
 
-This code is used in the article [XXXX], with a A6000 NVIDIA GPU, 7 CPU cores, 32GB RAM, and 2TB storage. The operating system was Ubuntu 22.04, with an nvidia driver 590.48.01. The python version was 3.10.12 and has the following packages: 
+This code is used in the article [XXXX], with a A6000 NVIDIA GPU, 7 CPU cores, 32GB RAM, and 2TB storage. The operating system was Ubuntu 22.04, with an nvidia driver 590.48.01. The python version was 3.10.12 and has the following packages:
+
     comet_ml -------------------------------------- 3.57.0
-    lightning ------------------------------------- 2.6.1
-    cuda toolkit ---------------------------------- 13.1
-    torch ----------------------------------------- 2.10
-    torchvision ----------------------------------- 0.25.0 + cu13.0
-    statsmodel ------------------------------------ 0.14.6
-    matplotlib ------------------------------------ 3.10.8
-    opencv-python --------------------------------- 4.13
-    scikit-image ---------------------------------- 0.25.2
-    scikit-learn ---------------------------------- 1.7.2
-    seaborn --------------------------------------- 0.13.2
     
-
-
-        
+    lightning ------------------------------------- 2.6.1
+    
+    cuda toolkit ---------------------------------- 13.1
+    
+    torch ----------------------------------------- 2.10
+    
+    torchvision ----------------------------------- 0.25.0 + cu13.0
+    
+    statsmodel ------------------------------------ 0.14.6
+    
+    matplotlib ------------------------------------ 3.10.8
+    
+    opencv-python --------------------------------- 4.13
+    
+    scikit-image ---------------------------------- 0.25.2
+    
+    scikit-learn ---------------------------------- 1.7.2
+    
+    seaborn --------------------------------------- 0.13.2
