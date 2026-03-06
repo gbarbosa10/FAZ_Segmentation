@@ -35,7 +35,7 @@ The disease_class can be selected between rvo_treated, others, normal and all. E
 The following image shows an example of these image inpainting techniques. In the left there is the image prediction, in the middle there is an occluded image, while in the right there is the original image.
 
 <p align="center">
-    <img width="292" height="97" alt="image" src="https://github.com/user-attachments/assets/1d9d6af1-e6a4-45ae-ad02-13002c3358cd" style="float:right;"/>
+    <img width="600" height="200" alt="image" src="https://github.com/user-attachments/assets/1d9d6af1-e6a4-45ae-ad02-13002c3358cd" style="float:right;"/>
 </p>
 The segmentation_main_matching.py has the code responsible for image segmentation training. The models are finetuned to one of the ophtalmologist's segmentation. 
 
@@ -75,7 +75,7 @@ The oftal_2 option can be True or False, if True the annotations from the second
 The following image shows an example of the image segmentation results. In the left there is the image annotation, in the middle there is the segmentation prediction, while in the right there is the image prediction countour.
 
 <p align="center">
-<img width="295" height="98" alt="image" src="https://github.com/user-attachments/assets/31a4d4be-ba2b-4896-8576-41fbfa43b8e7" />
+    <img width="600" height="200" alt="image" src="https://github.com/user-attachments/assets/31a4d4be-ba2b-4896-8576-41fbfa43b8e7" />
 </p>
 
 The code follows the following structure: 
