@@ -1,0 +1,10 @@
+comet_ml==3.57.0
+lightning==2.6.1
+torch==2.10
+torchvision==0.25.0 + cu13.0
+statsmodel==0.14.6
+matplotlib==3.10.8
+opencv-python==4.13
+scikit-image==0.25.2
+scikit-learn==1.7.2
+seaborn==0.13.2
