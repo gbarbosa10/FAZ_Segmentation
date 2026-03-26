@@ -53,8 +53,7 @@ if __name__ == "__main__":
     args = get_args()
 
     # your credentials
-    # Define settings for reproducibility 
-    torch.backends.cudnn.benchmark = False
+    # Define settings for reproducibility
     torch.backends.cudnn.deterministic = True
     torch.use_deterministic_algorithms(True, warn_only=True)
     g = torch.Generator(device='cpu')
@@ -103,6 +102,13 @@ if __name__ == "__main__":
             del input[key]
         return input
 
+    def ensure_folder_exists(folder_path):
+        if not os.path.exists(folder_path):
+            os.makedirs(folder_path)
+            print(f"Folder created: {folder_path}")
+        else:
+            print(f"Folder already exists: {folder_path}")
+
     num_GPU = 1
 
     image_size = 224
@@ -117,7 +123,8 @@ if __name__ == "__main__":
     epoch = 0 
         
     images_normalization_list=False
-
+    ensure_folder_exists("model")
+    ensure_folder_exists("segmentation_models")
     mean=0
     std=1
     for loss_id in args.loss:
@@ -171,7 +178,7 @@ if __name__ == "__main__":
                                     img_dir = "FAZ_Segmentation/Normais/"
                                 if disease == "all": 
                                     img_dir = "FAZ_Segmentation/"
-                                
+
                                 model_path = "model/"
 
                                 total_fold_num = args.total_fold_num
@@ -263,7 +270,8 @@ if __name__ == "__main__":
                                     experiment_id = logger.experiment.get_key()
                                     model_name = model_id  + "_" + str(experiment_id)
 
-                                else: 
+                                else:
+                                    ensure_folder_exists("logs")
                                     logger = CSVLogger("logs", name= "model_" + model_id + "_disease_" + disease + '_lr_' + str(learning_rate) + '_bs_' + str(batch_size) + '_aug_' + data_aug_id)
                                     model_name = model_id  + "_" + str(id)
 

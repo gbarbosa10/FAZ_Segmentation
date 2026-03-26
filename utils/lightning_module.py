@@ -459,6 +459,13 @@ def compute_robust_hausdorff(surface_distances, percent):
 
   return max(perc_distance_gt_to_pred, perc_distance_pred_to_gt)
 
+def ensure_folder_exists(folder_path):
+    if not os.path.exists(folder_path):
+        os.makedirs(folder_path)
+        print(f"Folder created: {folder_path}")
+    else:
+        print(f"Folder already exists: {folder_path}")
+
 class DiceScore(Metric):
     def __init__(self, **kwargs):
         super().__init__(**kwargs)
@@ -648,6 +655,9 @@ class LitModel_SimpleSemanticSeg(pl.LightningModule):
         self.HD_95 = HD95(95)
         self.dice_jaccard_tensor = torch.tensor([]).cuda()
 
+        ensure_folder_exists("model_ims")
+        ensure_folder_exists("Dice_Jaccard_Index_array")
+
     def training_step(self, batch, batch_idx):
         dif_area_out = 0
         x, y, _ = batch
@@ -824,6 +834,9 @@ class LitModel_SimpleSemanticSegOphtal2(pl.LightningModule):
         self.HD = HausdorffDistance(num_classes=2).to(device='cuda')
         self.HD_95 = HD95(95)
         self.dice_jaccard_tensor = torch.tensor([]).cuda()
+
+        ensure_folder_exists("model_ims")
+        ensure_folder_exists("Dice_Jaccard_Index_array")
 
     def training_step(self, batch, batch_idx):
         dif_area_out = 0
@@ -1148,6 +1161,7 @@ class PreTrain_ImReconstruct(pl.LightningModule):
         self.best_FID_loss = 10**12
         self.best_PSNR_loss = 0
         self.best_debug_init_loss = 10**12
+        ensure_folder_exists("segmentation_models/image_impaint")
     
     def training_step(self, batch, batch_idx):
         image_defect, image, final_mask, self.dataset_index = batch

@@ -65,7 +65,16 @@ if __name__ == "__main__":
         df['patient'] = range(0, len(df))  # Set new index from 1 to number of rows
         return df
 
+    def ensure_folder_exists(folder_path):
+        if not os.path.exists(folder_path):
+            os.makedirs(folder_path)
+            print(f"Folder created: {folder_path}")
+        else:
+            print(f"Folder already exists: {folder_path}")
+
     img_dir = "FAZ_Segmentation/"
+    ensure_folder_exists("model")
+    ensure_folder_exists("image_impainting_models")
     model_path = "model/"
     mean=0
     std=1
@@ -167,7 +176,8 @@ if __name__ == "__main__":
                                 api_exp.log_metric("epoch", 0)
                                 api_exp.log_metric("Pre_Trained", False)
 
-                            else: 
+                            else:
+                                ensure_folder_exists("logs")
                                 logger = CSVLogger("logs", name= "pre_train_model_" + model_id + "_disease_" + disease + '_lr_' + str(learning_rate) + '_bs_' + str(batch_size) + '_aug_' + data_aug_id)
                                 model_name = model_id  + "_" + str(id)
 
